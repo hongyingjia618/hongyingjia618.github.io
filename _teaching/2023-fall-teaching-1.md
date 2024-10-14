@@ -4,7 +4,7 @@ collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2023-fall-teaching-1
 venue: "UC Berkeley, Department of Mathematics"
-date: 2023-08-029
+date: 2023-08-29
 location: "Berkeley, California"
 ---
 
