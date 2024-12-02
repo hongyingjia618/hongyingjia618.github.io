@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I obtained my Bachelor of Arts from UC Berkeley in Mathematics (with Highest Honors) and Computer Science in 2024. 
+I obtained my Bachelor of Arts in Mathematics with Highest Honors from the College of Letters and Science and Bachelor of Arts in Computer Science from the College of Computing, Data Science, and Society from UC Berkeley 2020 - 2024. 
 
 ## Research Interest 
 
