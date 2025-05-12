@@ -1,5 +1,5 @@
 ---
-title: "MATH 1B Calculus"
+title: "MATH 1B Calculus Fall 2023"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2023-fall-teaching-1

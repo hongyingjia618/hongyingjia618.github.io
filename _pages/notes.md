@@ -11,7 +11,7 @@ redirect_from:
 
 <div class="notes-grid">
   <article class="note-card">
-    <h2><a href="https://www.overleaf.com/read/zpgnzggbqftw#f07866">Measure-Theoretic Probability Notes</a></h2>
+    <h2><a href="https://www.overleaf.com/read/zpgnzggbqftw#f07866">My Measure-Theoretic Probability Notes</a></h2>
     <p>Full notes + source code</p>
   </article>
   
@@ -21,7 +21,7 @@ redirect_from:
   </article>
 
   <article class="note-card">
-    <h2><a href="https://www.overleaf.com/read/bqfzpxrbqcqh#7c9b51">Modern Signal Processing Notes</a></h2>
+    <h2><a href="https://www.overleaf.com/read/bqfzpxrbqcqh#7c9b51">My Modern Signal Processing Notes</a></h2>
     <p>Full notes + source code on Statistical Signal Processing.</p>
   </article>
 </div>

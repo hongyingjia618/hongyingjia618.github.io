@@ -1,5 +1,5 @@
 ---
-title: "MATH 54 Linear Algebra and Differential Equations"
+title: "MATH 54 Linear Algebra and Differential Equations Spring 2024"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2024-spring-teaching-2
