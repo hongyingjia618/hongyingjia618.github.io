@@ -40,6 +40,23 @@
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
 
+
+// —— Card base styles ——  
+.edu-card,
+.research-card {
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 0.75rem;
+  padding: 1.5rem 2rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s, box-shadow 0.2s;
+  margin-bottom: 1.5rem;
+
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  }
+}
 .notes-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
@@ -74,4 +91,85 @@
   margin: 0;
   color: #555;
   line-height: 1.4;
+}
+// ——————————————————————————————
+// Force full-width for our About page content
+.entry-content {
+  max-width: none !important;
+  padding: 0 !important;
+}
+
+.entry-content .about-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+@media (max-width: 800px) {
+  .about-grid {
+    grid-template-columns: 1fr; 
+  }
+}
+
+// Section headers
+.about-section h2 {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid rgba(0,0,0,0.1);
+  padding-bottom: 0.5rem;
+}
+
+// ——— About intro paragraph ———
+.entry-content .about-intro {
+  font-size: 1rem !important;
+  line-height: 1.6 !important;
+  color: #444 !important;
+  margin: 0 0 2rem !important;
+  max-width: 800px !important;
+}
+
+// Education cards
+.edu-card {
+  h3 {
+    margin: 0 0 0.5rem;
+    font-size: 1.25rem;
+    color: #222;
+  }
+
+  .edu-date {
+    font-size: 0.9rem;
+    color: #666;
+    font-weight: normal;
+    margin-left: 0.5rem;
+  }
+}
+
+.edu-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.edu-card h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1.25rem;
+}
+
+.edu-date {
+  font-size: 0.9rem;
+  color: #666;
+  font-weight: normal;
+  margin-left: 0.5rem;
+}
+
+// Research list
+.research-list {
+  list-style: disc inside;
+  padding-left: 0;
+  margin: 0;
+}
+
+.research-list li {
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
 }
