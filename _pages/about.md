@@ -31,8 +31,7 @@ I am Fangyuan Lin and I have experienced firsthand how transformative even a sma
     <h2>Research Interests</h2>
     <div class="research-card">
       <ul class="research-list">
-        <li>Statistical Machine Learning</li>
-        <li>Probability Theory</li>
+        <li>Probability and Statistics</li>
         <li>Information Theory</li>
       </ul>
     </div>

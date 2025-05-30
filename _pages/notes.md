@@ -12,7 +12,7 @@ redirect_from:
 <div class="notes-grid">
   <article class="note-card">
     <h2><a href="https://www.overleaf.com/read/zpgnzggbqftw#f07866">My Measure-Theoretic Probability Notes</a></h2>
-    <p>Full notes + source code</p>
+    <p>Full notes + source code on graduate-level probability theory.</p>
   </article>
   
   <article class="note-card">
@@ -22,7 +22,12 @@ redirect_from:
 
   <article class="note-card">
     <h2><a href="https://www.overleaf.com/read/bqfzpxrbqcqh#7c9b51">My Modern Signal Processing Notes</a></h2>
-    <p>Full notes + source code on Statistical Signal Processing.</p>
+    <p>Full notes + source code on graduate-level statistical signal processing.</p>
+  </article>
+
+  <article class="note-card">
+    <h2><a href="https://www.overleaf.com/read/tgskpmyshcdn#3b59e6">My Mathematical Statistics Notes</a></h2>
+    <p>Full notes + source code on graduate-level mathematical statistics..</p>
   </article>
 </div>
 
