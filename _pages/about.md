@@ -21,8 +21,8 @@ I am Hongying Jia and I am a third-year PhD student at Tongji University, majore
     <div class="edu-card">
       <h3>Jiangnan University <span class="edu-date">(2015 – 2022)</span></h3>
       <p>
-        <strong>B.A. in Clothing Design
-        <strong>M.A. in Clothing Design and Management
+        <strong>B.A. in Clothing Design <strong>
+        <strong>M.A. in Clothing Design and Management<strong>
       </p>
     </div>
   </section>

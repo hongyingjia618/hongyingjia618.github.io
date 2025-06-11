@@ -8,13 +8,13 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Fangyuan Lin"
+title                    : "Hongying Jia"
 title_separator          : "-"
-name                     : &name "Fangyuan Lin"
-description              : &description "Aspiring Probabilist, Information Theorist, and Cryptographer"
-url                      : https://fangyuanlin2002.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : &name "Hongying Jia"
+description              : &description "PhD Student in Design History"
+url                      : https://hongyingjia618.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "fangyuanlin2002"
+repository               : "hongyingjia618"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
