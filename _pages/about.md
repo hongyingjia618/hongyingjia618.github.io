@@ -7,22 +7,22 @@ redirect_from:
   - /about.html
 ---
 <p class="about-intro">
-I am Fangyuan Lin and I have experienced firsthand how transformative even a small act of kindness and guidance can be. The generosity of my friends and professors empowered me to grow—so I’m devoted to paying that support forward.
+I am Hongying Jia and I am a third-year PhD student at Tongji University, majored in Design History.
 </p>
 <div class="about-grid">
   <section class="about-section education">
     <h2>Education</h2>
 
     <div class="edu-card">
-      <h3>Columbia University <span class="edu-date">(Fall 2025 – Spring 2030 (Expected))</span></h3>
-      <p><strong>PhD in Statistics</strong></p>
+      <h3>Tongji University<span class="edu-date">(Fall 2022 – Spring 2026 (Expected))</span></h3>
+      <p><strong>PhD in Design History</strong></p>
     </div>
 
     <div class="edu-card">
-      <h3>University of California, Berkeley <span class="edu-date">(2020 – 2024)</span></h3>
+      <h3>Jiangnan University <span class="edu-date">(2015 – 2022)</span></h3>
       <p>
-        <strong>B.A. in Mathematics</strong>, Highest Honors<br>
-        <strong>B.A. in Computer Science</strong>
+        <strong>B.A. in Clothing Design
+        <strong>M.A. in Clothing Design and Management
       </p>
     </div>
   </section>
@@ -31,8 +31,8 @@ I am Fangyuan Lin and I have experienced firsthand how transformative even a sma
     <h2>Research Interests</h2>
     <div class="research-card">
       <ul class="research-list">
-        <li>Probability and Statistics</li>
-        <li>Information Theory</li>
+        <li>Everyday Design History</li>
+        <li>Woman Culture</li>
       </ul>
     </div>
   </section>
