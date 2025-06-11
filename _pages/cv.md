@@ -9,6 +9,6 @@ redirect_from:
 
 {% include base_path %}
 
-[Download CV here (Last update: Oct. 2024)](https://hongyingjia618.github.io/files/CV.pdf)
+[Download CV here](https://hongyingjia618.github.io/files/CV.pdf)
 
-<embed src="https://fangyuanlin2002.github.io/files/CV.pdf" width="100%" height="600px" type="application/pdf">
+<embed src="https://hongyingjia618.github.io/files/CV.pdf" width="100%" height="600px" type="application/pdf">
