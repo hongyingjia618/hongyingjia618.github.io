@@ -173,3 +173,182 @@
   margin-bottom: 0.5rem;
   font-size: 1.1rem;
 }
+// —— Education 时间轴样式 ——  
+.education.timeline { position: relative; padding-left: 2rem; margin: 2rem 0; }
+.education.timeline h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 0.5rem;
+}
+.timeline-container { position: relative; margin-left: 1rem; }
+.timeline-container::before {
+  content: "";
+  position: absolute; left: 0; top: 0; bottom: 0;
+  width: 4px; background: #ddd; border-radius: 2px;
+}
+.timeline-item { 
+  position: relative; 
+  margin-bottom: 1rem; 
+  display: flex; 
+  padding-top:  0rem;
+}
+.timeline-marker {
+  position: absolute; left: -1.75rem; width: 1rem; height: 1rem;
+  border-radius: 50%; background: #4285F4; border: 2px solid #fff;
+  box-shadow: 0 0 0 2px #4285F4;
+}
+.stage-phd .timeline-marker   { background: #4285F4; box-shadow: 0 0 0 2px #4285F4; }
+.stage-visit .timeline-marker { background: #34A853; box-shadow: 0 0 0 2px #34A853; }
+.stage-ms .timeline-marker    { background: #FBBC05; box-shadow: 0 0 0 2px #FBBC05; }
+.stage-ba .timeline-marker    { background: #EA4335; box-shadow: 0 0 0 2px #EA4335; }
+.timeline-content {
+  background: #fff; padding: 1rem 1.5rem; border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05); flex: 1;
+}
+.timeline-content h3 {
+  display: flex; justify-content: space-between; margin-bottom: 0.5rem;
+  font-size: 1.25rem;
+}
+.timeline-content h3 span {
+  color: #666; font-size: 1rem;
+}
+.timeline-content ul {
+  margin: 0; padding-left: 1.25rem;
+}
+.timeline-content li {
+  margin-bottom: 0.25rem; line-height: 1.4;
+}
+// —— 覆盖原来 h2 和 item 的间距 —— 
+.education.timeline h2 {
+  margin-bottom: 1rem;  // 覆盖原先 1.5rem
+}
+
+
+// —— 增加悬停动画 —— 
+.timeline-content {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding-top:    0rem;  // 顶部内边距
+  padding-bottom: 0.5rem;  // 底部内边距
+  padding-left:   1rem;    // 左右保持
+  padding-right:  1rem;
+}
+.timeline-content:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.timeline-marker {
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+.timeline-item:hover .timeline-marker {
+  transform: scale(1.2);
+}
+
+.timeline-content h3 {
+  /* 复位上下所有 margin */
+  margin: 0;
+  /* 再手动添加一个小的下边距，让标题和列表分离 */
+  margin-bottom: 1rem;
+  
+  /* 保留你原来用于布局的属性 */
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  font-size: 1.25rem;
+}
+.timeline-content h3 span {
+  /* 你的日期样式 */
+  font-size: 1rem;
+  color: #666;
+}// —— 标题上下留白一致且增大 —— 
+.timeline-content h3 {
+  /* 先把之前的 margin 全部清零 */
+  margin: 0;
+  /* 然后给上下都加 0.75rem，左右保持 0 */
+  margin: 1rem 0;
+}
+
+// —— 时间轴每个教育板块之间加大间隔 —— 
+.timeline-item {
+  /* 原来可能是 1rem 或者 1.5rem，这里调为 2rem */
+  margin-bottom: 3rem;
+}
+/* 关于我简介段落美化 */
+.about-intro {
+  /* 两端对齐 */
+  text-align: justify;
+  /* 中文用 inter-ideograph 更好，英文也会左右对齐 */
+  text-justify: inter-ideograph;
+
+  /* 首行缩进 2 个字符宽 */
+  text-indent: 2em;
+
+  /* 调整行高和段间距 */
+  line-height: 1.8;
+  margin-bottom: 1.5em;
+
+  /* 可选：限制最大宽度，保持阅读舒适 */
+  max-width: 700px;
+  /* 可选：居中显示 */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* 如果你希望第二段与第一段保持一致格式，也可这样统一 */
+.about-intro + .about-intro {
+  margin-top: 0; /* 与上一段紧贴，或设置你想要的间距 */
+}
+/* —— 引入主题色、加厚首行首字母 —— */
+:root {
+  --primary-color: #4285F4;
+  --accent-color: #34A853;
+}
+
+/* —— 入场动画 —— */
+@keyframes fadeInUp {
+  0%   { opacity: 0; transform: translateY(20px); }
+  100% { opacity: 1; transform: translateY(0);      }
+}
+
+/* —— about-intro 增强样式 —— */
+.about-intro {
+  /* 布局 & 字体 */
+  max-width: 700px;
+  margin: 0 auto 1.5rem;
+  text-align: justify;
+  text-justify: inter-ideograph;
+  text-indent: 2em;
+  line-height: 1.8;
+  letter-spacing: 0.025em;
+
+  /* 视觉装饰 */
+  border-left: 4px solid var(--accent-color);
+  padding-left: 1rem;
+  background: #f9fcff;
+  border-radius: 4px;
+
+  /* 入场动画 */
+  opacity: 0;
+  animation: fadeInUp 0.8s ease-out forwards;
+  animation-delay: var(--intro-delay, 0.3s);
+
+  /* 悬停微交互 */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.about-intro:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* —— Drop cap（首字母放大） —— */
+.about-intro::first-letter {
+  max-width: 800px;
+  margin: 0 auto 1.5rem;
+  font-size: 3rem;
+  font-weight: bold;
+  float: left;
+  line-height: 1;
+  margin-right: 0.1em;
+  color: var(--primary-color);
+}
