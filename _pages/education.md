@@ -50,7 +50,7 @@ redirect_from:
       </div>
     </div>
 
-    <!-- BA 阶段
+    <!-- BA 阶段 -->
     <div class="timeline-item stage-ba">
       <div class="timeline-marker"></div>
       <div class="timeline-content">
@@ -61,8 +61,7 @@ redirect_from:
         </ul>
       </div>
     </div>
-  </div>
-</section> -->
+
 
 
    <!-- <section class="about-section research">
