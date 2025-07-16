@@ -352,3 +352,92 @@
   margin-right: 0.1em;
   color: var(--primary-color);
 }
+/* === About Page 主体布局 === */
+.about-page {
+  display: flex;
+  flex-wrap: nowrap;
+  min-height: 80vh;
+  margin: 2rem auto;
+  max-width: 1200px;
+}
+
+/* ——— 左侧侧边栏 ——— */
+.sidebar {
+  flex: 0 0 280px;
+  padding: 2rem 1.5rem;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 2px 4px 12px rgba(0,0,0,0.05);
+  text-align: center;
+  margin-right: 2rem;
+}
+.sidebar .avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+.sidebar .name {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.sidebar .subtitle {
+  margin: 0.5rem 0 1.5rem;
+  color: #666;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+.sidebar .contact,
+.sidebar .social {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+}
+.sidebar .contact li,
+.sidebar .social li {
+  margin: 0.4rem 0;
+  font-size: 0.9rem;
+}
+.sidebar a {
+  color: #007acc;
+  text-decoration: none;
+}
+.sidebar a:hover {
+  text-decoration: underline;
+}
+
+/* ——— 右侧主体内容 ——— */
+.main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.card {
+  background: #fff;
+  padding: 1.8rem 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+.main-content h1,
+.main-content h2 {
+  margin-top: 0;
+  color: #222;
+}
+.main-content p {
+  line-height: 1.7;
+  color: #444;
+}
+
+/* === 响应式：窄屏下侧边栏跑到上方 === */
+@media (max-width: 900px) {
+  .about-page {
+    flex-direction: column;
+  }
+  .sidebar {
+    margin: 0 0 2rem;
+    width: auto;
+  }
+}
