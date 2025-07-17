@@ -7,10 +7,10 @@
 main:
 
   - title: "About"
-    url: /about/
+    url: /../
 
   - title: "Education"
-    url: /../
+    url: /education/
   
   - title: "CV"
     url: /cv/
