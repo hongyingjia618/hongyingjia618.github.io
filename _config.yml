@@ -27,17 +27,17 @@ author:
   bio              : ""
   location         : "Berkeley, CA"
   employer         : 
-  uri              : # URL
+  uri              : #"https://hongyingjia618.github.io/"
   email            : "hongyingjia@berkeley.edu" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=VpVKz1UAAAAJ"
   impactstory      : # URL
-  orcid            : #"http://orcid.org/yourorcidurl"
+  orcid            : #"https://orcid.org/0000-0001-9838-3385"
   semantic         : # URL
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  researchgate     : # URL
+  researchgate     : "https://www.researchgate.net/profile/Hongying-Jia-4"
 
   # Repositories and software development
   bitbucket        : # Username - Update with your username on the site
@@ -55,9 +55,9 @@ author:
   goodreads        : # Username
   google_plus      : # Username
   keybase          : # Username
-  instagram        : # Username
+  instagram        : jiahongyingjia
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : 鸿英-贾-837629370
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
